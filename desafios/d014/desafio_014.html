@@ -31,10 +31,24 @@
             text-align: left;
         }
 
+        .col3{
+            background-color: greenyellow;
+        }
+
+        .col5{
+            background-color: aqua;
+        }
+
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3" span="2">
+            <col class="col5">
+        </colgroup>
         <thead class="clean">
             <tr>
                 <th rowspan="2" scope="col">Área</th>
